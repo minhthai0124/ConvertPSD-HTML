@@ -20,7 +20,8 @@
         margin-left: 10px;
     }
     .navbar {
-        margin-bottom: 0 !important;        
+        margin-bottom: 0 !important;  
+        width: 100%;      
     }
     #headr-navbar{
         background-image: url("images/Layer0.png");
@@ -33,10 +34,10 @@
         color: white;	       
         border-right: 1px white solid;
     }
-    /* *, ::after, ::before {
+    *, ::after, ::before {
         -webkit-box-sizing: inherit; 
         box-sizing: inherit;
-    } */
+    }
     #banner{
         height: 400px;
         background-image: url("images/Layer0.png");
@@ -84,6 +85,7 @@
     #top-products{
         height: 180px;
         border: 0.5px solid white;
+        width: 100%;
     }
     .products{
         margin-top: 15px;
