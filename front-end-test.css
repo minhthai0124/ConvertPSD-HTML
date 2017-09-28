@@ -1,16 +1,24 @@
     body {
         font-family: "Arial", Times, serif;
     }
+
+    *, ::after, ::before {
+        -webkit-box-sizing: inherit; 
+        box-sizing: inherit;
+    }
     #btnHome{
-        padding-left: 100px;
+        padding-left: 45%;
     }
     #fSearch{
         padding-top:10px;
     }
     #searchbox{
-        width: 500px;
-        margin-left: 90px;
+        width: 60%;
+        margin-left: 20%;
         display: flex;
+        background-image: url('images/Shape1.png');
+        background-position: right; 
+        background-repeat: no-repeat;
     }
     #btnSearch:hover{
         opacity: 0.8;
@@ -20,11 +28,11 @@
         margin-left: 10px;
     }
     .navbar {
-        margin-bottom: 0 !important;  
-        width: 100%;      
+        width: 100%;  
+        background-color: white !important;  
     }
     #headr-navbar{
-        background-image: url("images/Layer0.png");
+        background-color: #3FCABA;
         box-shadow: 0px 1px 1px 1px #35AC98;	
     }
     /* .nav-link-custom:hover{
@@ -34,10 +42,11 @@
         color: white;	       
         border-right: 1px white solid;
     }
-    *, ::after, ::before {
-        -webkit-box-sizing: inherit; 
-        box-sizing: inherit;
+    .nav>li>a:focus, .nav>li>a:hover {
+        text-decoration: none;
+        background-color: #13c5ae !important;
     }
+
     #banner{
         height: 400px;
         background-image: url("images/Layer0.png");
@@ -49,8 +58,9 @@
         color: white;border: 2px solid white;
     }
     .btnSlide{
-        border-radius: 8px ;
+        border-radius: 8px !important;
     }
+
     #txtBanner{
         color: white;
         text-align: left;
@@ -119,13 +129,15 @@
         background-image: url("images/Layer0.png");
         color: white;
         padding-top: 10px;
-        padding-left: 90px;	
+        padding-left: 90px;
+        box-shadow: 0px 1px 1px 1px #35AC98;	
     }
     .featureproducts{
         display: flex;
         margin-left: 30px;
         margin-right: 30px;
         padding-left: 90px;
+
     }
     .featureproducts .card-block img{
         margin:8px;
@@ -138,18 +150,17 @@
     }
     .btnBuy{
         border-radius: 5px;
-        background-color: #39BDA9;
-        border: 1px solid #39BDA9;
-        box-shadow: 1px 1px 1px 1px #35AC98;
+        background-color: #29E48D;
+        border: 1px solid #29E48D;
+        box-shadow: 1px 1px 1px 1px #29E48D;
         color: white;        
     }
-    .btnBuy:hover{
-        opacity: 0.8;
-    }
+
     .card{
         margin-left: 30px;
         margin-top: 30px;
-        border-bottom: 5px solid #39BDA9 !important;
+        border-bottom: 5px solid #29E48D !important;
+        padding-bottom: 15px;
     }
     .card:hover{
         opacity: 0.8;
